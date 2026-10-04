@@ -11,7 +11,7 @@
 // are structurally typed so a missing key only surfaces at call time). Wired into
 // `npm run typecheck:all`, so a drifted contract fails the pre-deploy gate.
 //
-// Tool-agnostic: runs the same for Claude Code and Codex.
+// Runs the same locally and in CI.
 
 import { readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';

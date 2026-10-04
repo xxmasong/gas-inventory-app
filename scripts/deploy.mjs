@@ -19,7 +19,7 @@ const newVersion = process.argv.includes('--new-version');
 // Project rule: releases are always versioned (`npm run deploy:version`). A
 // HEAD-only `npm run deploy` is allowed for iterative dev ONLY when explicitly
 // opted in via DEPLOY_ALLOW_HEAD=1. Enforced here in the script so it holds for
-// any agent (Claude Code, Codex) and humans alike — not just Claude's hooks.
+// any caller, local or CI.
 if (!newVersion && process.env.DEPLOY_ALLOW_HEAD !== '1') {
   console.error(
     '\n✗ HEAD-only deploy blocked. Use `npm run deploy:version` (always versioned).\n' +

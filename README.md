@@ -42,4 +42,7 @@ Header badge shows `local mock` vs `Sheets backend`.
 
 ## Development reference
 
-Everything is in **[CLAUDE.md](CLAUDE.md)** — architecture, rules, data model, API surface, code patterns, commands, troubleshooting. No separate docs folder.
+- [docs/SYSTEM_REFERENCE.md](docs/SYSTEM_REFERENCE.md): architecture, rules, data model, API surface, commands and troubleshooting
+- [docs/patterns/](docs/patterns/): code templates for the server, client and RPC contract
+- [docs/ADR/](docs/ADR/): architecture decision records
+- [docs/](docs/README.md): guidelines, deployment, operations, security and testing

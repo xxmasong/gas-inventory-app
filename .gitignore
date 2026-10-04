@@ -1,9 +1,6 @@
 node_modules/
 dist/
 
-# Local Claude overrides — machine-specific, not committed
-CLAUDE.local.md
-.claude/settings.local.json
 
 # clasp local state — contains your scriptId; keep out of the repo.
 .clasp.json
